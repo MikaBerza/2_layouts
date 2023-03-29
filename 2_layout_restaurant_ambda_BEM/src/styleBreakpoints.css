@@ -1,0 +1,532 @@
+/*_________________________________________________________________________________*/
+/*Стили - media*/
+/*1240px___________________________________________________*/
+@media (max-width: 1240px) {
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Home__-->*/
+  .header {
+    width: 100%;
+  }
+
+  .header__navbar-list {
+    padding: 0 50px;
+  }
+
+  .header__navbar-list-item-ambda {
+    left: 0px;
+  }
+
+  .header__navbar-list-item-home,
+  .header__navbar-list-item-about,
+  .header__navbar-list-item-ingredients,
+  .header__navbar-list-item-menu,
+  .header__navbar-list-item-reviews,
+  .header__navbar-list-item-reservations {
+    right: 0px;
+  }
+
+  .header__navbar-list-item-twitter::after,
+  .header__navbar-list-item-youTube::after,
+  .header__navbar-list-item-facebook::after {
+    right: 0px;
+  }
+
+  .header__main-title-text {
+    font-size: 70px;
+  }
+
+  .header__button-group-btn_book,
+  .header__button-group-btn_see {
+    width: 180px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__About___-->*/
+  .about {
+    width: 100%;
+  }
+
+  .about__content-col-right-img {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Ingredients___-->*/
+  .ingredients {
+    width: 100%;
+  }
+
+  .ingredients__content {
+    margin: auto;
+    padding: 0px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Menu__-->*/
+  .menu {
+    width: 100%;
+  }
+
+  .menu__content {
+    justify-content: space-evenly;
+  }
+
+  .menu__content-col-left,
+  .menu__content-col-right {
+    width: 40%;
+    padding: 0 40px;
+  }
+
+  .card-three__list-item-logo-special {
+    position: relative;
+    right: 0px;
+
+    margin: auto;
+    padding: auto;
+
+    width: 16%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .card-two__list-item-description,
+  .card-three__list-item-description,
+  .card-three__list-item-description-special {
+    font-size: 14px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Reviews___-->*/
+  .reviews {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+
+  .reviews__content {
+    padding: 0px;
+    margin: auto;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Reservations___-->*/
+  .reservations {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reservations__col-left {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 95px;
+  }
+
+  .reservations__col-right-inputFields {
+    width: 100%;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Footer__-->*/
+  .footer {
+    width: 100%
+  }
+
+  .footer__content-col-separator {
+    width: 200px;
+  }
+
+}
+
+@media (max-width: 890px) {
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Home__-->*/
+  .header {
+    width: 100%;
+  }
+
+  .header__navbar-list {
+    flex-direction: column;
+    align-items: start;
+    padding: 0 50px;
+  }
+
+  .header__navbar-list-item-home,
+  .header__navbar-list-item-about,
+  .header__navbar-list-item-ingredients,
+  .header__navbar-list-item-menu,
+  .header__navbar-list-item-reviews,
+  .header__navbar-list-item-reservations {
+    display: inline-block;
+    margin-top: 10px;
+    right: 0px;
+  }
+
+  .header__navbar-list-item-twitter::after,
+  .header__navbar-list-item-youTube::after,
+  .header__navbar-list-item-facebook::after {
+    display: none;
+  }
+
+  .header__main-title-text {
+    position: static;
+    font-size: 60px;
+    line-height: 90px;
+    margin: auto;
+  }
+
+  .header__button-group-btn_book,
+  .header__button-group-btn_see {
+    width: 140px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__About___-->*/
+  .about {
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px 50px;
+  }
+
+  .about__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about__content-col-right {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .about__content-col-right-img {
+    width: 348px;
+    top: 0px;
+    left: 0px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Ingredients___-->*/
+  .ingredients {
+    width: 100%;
+  }
+
+  .ingredients__content {
+    margin: auto;
+    padding: 0px;
+  }
+
+  .ingredients__content-logo_1,
+  .ingredients__content-logo_2,
+  .ingredients__content-logo_3 {
+    width: 60px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Menu__-->*/
+  .menu {
+    width: 100%;
+  }
+
+  .menu__content {
+    justify-content: space-evenly;
+  }
+
+  .menu__content-col-left,
+  .menu__content-col-right {
+    width: 40%;
+    padding: 0 40px;
+  }
+
+  .card-three__list-item-logo-special {
+    position: relative;
+    right: 0px;
+
+    margin: auto;
+    padding: auto;
+
+    width: 26%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .card-two__title,
+  .card-three__title {
+    font-size: 28px;
+  }
+
+  .card-two__list-item-description,
+  .card-three__list-item-description,
+  .card-three__list-item-description-special {
+    font-size: 14px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Reviews___-->*/
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Reservations___-->*/
+
+  .reservations__col-left {
+    width: 100%;
+  }
+
+  .reservations__col-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Footer__-->*/
+  .footer {
+    width: 100%
+  }
+
+  .footer__content-col-separator {
+    width: 180px;
+  }
+}
+
+@media (max-width: 690px) {
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Home__-->*/
+  .header__navbar-list {
+    align-items: center;
+  }
+
+  .header__main-title-text {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .header__button-group {
+    width: 100%;
+  }
+
+  .header__button-group-btn {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .header__button-group-btn_book,
+  .header__button-group-btn_see {
+    margin-top: 20px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__About___-->*/
+  .about__content-col-left,
+  .about__content-col-right {
+    align-items: center;
+    width: 90%;
+    padding: 5px;
+  }
+
+  .about__content-col-left-logo {
+    width: 200px;
+  }
+
+  .about__content-col-right-img {
+    width: 248px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Ingredients___-->*/
+
+  .ingredients {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ingredients__content {
+    width: 100%;
+  }
+
+  .ingredients__content-card {
+    padding: 10px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Menu__-->*/
+  .menu__content {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu__content-col-left,
+  .menu__content-col-right {
+    width: 80%;
+    padding: 0;
+  }
+
+  .card-two__title,
+  .card-three__title {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  /* .card-three__separator,
+  .card-two__separator {
+    width: 100%;
+  } */
+
+  .card-three__list-item,
+  .card-three__list-item-price-special {
+    font-size: 18px;
+  }
+
+  .card-two__list-item-description,
+  .card-three__list-item-description,
+  .card-three__list-item-description-special {
+    font-size: 12px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Reviews___-->*/
+  .reviews__content {
+    width: 100%;
+  }
+
+  .reviews__content-description {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Reservations___-->*/
+  .reservations__col-left-oneImg,
+  .reservations__col-left-twoImg {
+    width: 43%;
+    height: 100%;
+  }
+
+  .reservations__col-right-inputFields {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Footer__-->*/
+  .footer__content-col-title {
+    font-size: 14px;
+  }
+
+  .footer__content-col-separator {
+    width: 100px;
+  }
+
+  .footer__content-col-block-description-item {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 420px) {
+
+  /*  */
+  /*  */
+  /*  */
+  /*_________________________________________________________________________________*/
+  /* <!--__Footer__-->*/
+  .footer__content-col-title {
+    font-size: 10px;
+  }
+
+  .footer__content-col-separator {
+    width: 90px;
+  }
+
+  .footer__content-col-block-description-item {
+    font-size: 8px;
+  }
+
+  .footer__content-col-block-description-item-img1,
+  .footer__content-col-block-description-item-img2,
+  .footer__content-col-block-description-item-img3,
+  .footer__content-col-block-description-item-img4 {
+    width: 16px;
+  }
+
+  .footer__content-col-block-description-item-img5,
+  .footer__content-col-block-description-item-img6,
+  .footer__content-col-block-description-item-img7,
+  .footer__content-col-block-description-item-img8 {
+    width: 14px;
+  }
+}

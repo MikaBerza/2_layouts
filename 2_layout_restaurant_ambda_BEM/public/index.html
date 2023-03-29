@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/2_layout_restaurant_ambda_BEM/src/style.css">
+  <link rel="stylesheet" href="../src/styleBreakpoints.css">
+  <script defer src="../src/script.js"></script>
+
+  <title>AMBDA</title>
+</head>
+
+<body>
+  <!--__Home__-->
+  <div class="home-wrapper">
+    <header id="Home" class="header">
+      <nav class="header__navbar">
+        <ul class="header__navbar-list">
+          <li><a class="header__navbar-list-item-ambda" href="#Home">AMBDA</a></li>
+          <li><a class="header__navbar-list-item-home current ww" href="#Home">Home</a></li>
+          <li><a class="header__navbar-list-item-about" href="#About">About</a></li>
+          <li><a class="header__navbar-list-item-ingredients ww" href="#Ingredients">Igredients</a></li>
+          <li><a class="header__navbar-list-item-menu ww" href="#Menu">Menu</a></li>
+          <li><a class="header__navbar-list-item-reviews ww" href="#Reviews">Reviews</a></li>
+          <li><a class="header__navbar-list-item-reservations ww" href="#Reservations">Reservations</a></li>
+
+          <li><a class="header__navbar-list-item-twitter" href=""></a></li>
+          <li><a class="header__navbar-list-item-youTube" href=""></a></li>
+          <li><a class="header__navbar-list-item-facebook" href=""></a></li>
+        </ul>
+      </nav>
+
+      <div class="header__main-title">
+        <h1 class="header__main-title-text">the right ingredients <br> for the right food</h1>
+      </div>
+
+      <div class="header__button-group">
+        <div class="header__button-group-logo">
+          <img class="header__button-group-logo_1" src="../img/header/decoration.png" alt="">
+        </div>
+
+        <div class="header__button-group-btn">
+          <button class="header__button-group-btn_book">book a table</button>
+          <button class="header__button-group-btn_see">see the menu</button>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <main>
+    <!--__About__-->
+    <div class="about-wrapper">
+      <section id="About" class="about">
+        <div class="about__content">
+          <div class="card-one card-one__colorGold about__content-col-left">
+            <h2 class="card-one__title">Just the right food</h2>
+            <img class="card-one__separator" src="../img/about/divinder.png" alt="separator">
+            <p class="card-one__description">If you’ve been to one of our restaurants, you’ve seen – and tasted – what
+              keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda
+              cakes,
+              muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+            <div class="about__content-col-left-logo">
+              <img src="../img/about/cook.png" alt="cook">
+            </div>
+          </div>
+          <div class="about__content-col-right">
+            <img class="about__content-col-right-img" src="../img/about/dish.png" alt="dish">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--__Ingredients__ -->
+    <div class="ingredients-wrapper">
+      <section id="Ingredients" class="ingredients">
+        <div class="ingredients__content">
+          <!-- card-one -->
+          <div class="card-one card-one__colorWhite card-one__bgn ingredients__content-card">
+            <h2 class="card-one__title ingredients__content-title">Fine ingredients</h2>
+            <img class="card-one__separator ingredients__content-separator" src="../img/ingredients/divinderWhite.png"
+              alt="separator">
+            <p class="card-one__description ingredients__content-description">If you’ve been to one of our restaurants,
+              you’ve
+              seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked
+              food, delicious Lambda
+              cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+            <div class="card-one__logo ingredients__content-logo">
+              <img class="ingredients__content-logo_1" src="../img/ingredients/ingredientsItemOne.png" alt="">
+              <img class="ingredients__content-logo_2" src="../img/ingredients/ingredientsItemTwo.png" alt="">
+              <img class="ingredients__content-logo_3" src="../img/ingredients/ingredientsItemThree.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--__Menu__ -->
+    <div class="menu-wrapper">
+      <section id="Menu" class="menu">
+        <div class="menu__content">
+
+          <!-- left-column -->
+          <div class="menu__content-col-left ">
+            <!-- card-two -->
+            <div class="card-two">
+              <h2 class="card-two__title">Appetisers</h2>
+              <img class="card-two__separator" src="../img/menu/divinder.png" alt="separator">
+              <div class="card-two__list">
+                <div class="card-two__list-item">
+                  <span>Tzatsiki</span>
+                  <span>$3.99</span>
+                </div>
+                <p class="card-two__list-item-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+              </div>
+              <div class="card-two__list">
+                <div class="card-two__list-item">
+                  <span>Aubergine Salad</span>
+                  <span>$5.50</span>
+                </div>
+                <p class="card-two__list-item-description desc-el_1">.Pureed eggplant,garlic,green pepper and tomato
+                  dip.</p>
+              </div>
+              <div class="card-two__list">
+                <div class="card-two__list-item">
+                  <span>Aubergine Salad</span>
+                  <span>$5.25</span>
+                </div>
+                <p class="card-two__list-item-description desc-el_2">Pureed eggplant,garlic,green pepper and tomato dip.
+                </p>
+              </div>
+            </div>
+            <!-- card-three-->
+            <div class="card-three">
+              <h2 class="card-three__title">Salads</h2>
+              <img class="card-three__separator" src="../img/menu/divinder.png" alt="separator">
+              <div class="card-three__list">
+                <div class="card-three__list-item">
+                  <span>Olive Special</span>
+                  <span>$5.99</span>
+                </div>
+                <p class="card-three__list-item-description desc-el_3">Refreshing traditional cucumber and garlic
+                  yoghurt dip.</p>
+              </div>
+              <div class="card-three__list-item-logo-special">
+                <span>Special</span>
+              </div>
+              <div class="card-three__list-special">
+                <div class="card-three__list-item-price-special">
+                  <span>Greek Salad</span>
+                  <span>$5.50</span>
+                </div>
+                <div>
+                  <p class="card-three__list-item-description-special desc-el_4">.Pureed eggplant,garlic,green pepper
+                    and tomato
+                    dip.
+                  </p>
+                </div>
+              </div>
+              <div class="card-three__list">
+                <div class="card-three__list-item">
+                  <span>Gusto Salad</span>
+                  <span>$5.25</span>
+                </div>
+                <p class="card-three__list-item-description desc-el_2">Pureed eggplant,garlic,green pepper and tomato
+                  dip.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- right-column -->
+          <div class="menu__content-col-right">
+            <!-- card-two -->
+            <div class="card-two">
+              <h2 class="card-two__title">Starters</h2>
+              <img class="card-two__separator" src="../img/menu/divinder.png" alt="separator">
+              <div class="card-two__list">
+                <div class="card-two__list-item">
+                  <span>Haloumi</span>
+                  <span>$3.99</span>
+                </div>
+                <p class="card-two__list-item-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+              </div>
+              <div class="card-two__list">
+                <div class="card-two__list-item">
+                  <span>Spinach Pie</span>
+                  <span>$5.50</span>
+                </div>
+                <p class="card-two__list-item-description desc-el_1">.Pureed eggplant,garlic,green pepper and tomato
+                  dip.</p>
+              </div>
+            </div>
+            <!-- card-three-->
+            <div class="card-three">
+              <h2 class="card-three__title">Main Dishes</h2>
+              <img class="card-three__separator" src="../img/menu/divinder.png" alt="separator">
+              <div class="card-three__list">
+                <div class="card-three__list-item">
+                  <span>Cornish_Mackerel</span>
+                  <span>$5.99</span>
+                </div>
+                <p class="card-three__list-item-description desc-el_3">Refreshing traditional cucumber and garlic
+                  yoghurt dip.</p>
+              </div>
+              <div class="card-three__list-item-logo-special">
+                <span>Special</span>
+              </div>
+              <div class="card-three__list-special">
+                <div class="card-three__list-item-price-special">
+                  <span>Roast_Lamb</span>
+                  <span>$5.50</span>
+                </div>
+                <div>
+                  <p class="card-three__list-item-description-special desc-el_4">.Pureed eggplant,garlic,green pepper
+                    and
+                    tomato dip.</p>
+                </div>
+              </div>
+              <div class="card-three__list">
+                <div class="card-three__list-item">
+                  <span>Fried Chicken</span>
+                  <span>$5.25</span>
+                </div>
+                <p class="card-three__list-item-description desc-el_5">Pureed eggplant,garlic,green pepper and tomato
+                  dip.</p>
+              </div>
+              <div class="card-three__list">
+                <div class="card-three__list-item card-three__list-item_one">
+                  <span>Pastitsio</span>
+                  <span>$5.99</span>
+                </div>
+                <p class="card-three__list-item-description desc-el_3">Refreshing traditional cucumber and garlic
+                  yoghurt dip.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <!--__Reviews__ -->
+    <div class="reviews-wrapper">
+      <section id="Reviews" class="reviews ">
+        <div class="reviews__content">
+          <div class="card-one card-one__colorWhite card-one__bgn">
+            <h2 class="card-one__title reviews__content-title">Guest Reviews</h2>
+            <img class="card-one__separator reviews__content-separator" src="../img/ingredients/divinderWhite.png"
+              alt="separator">
+            <p class="card-one__description reviews__content-description">If you’ve been to one of our restaurants,
+              you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials
+              and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us
+              hard to resist! Stop in today and check us out!</p>
+            <p class="reviews__content-author">- food inc, New York</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--__Reservations__ -->
+    <div class="reservations-wrapper">
+      <section id="Reservations" class="reservations">
+        <div class="reservations__col-left">
+          <img class="reservations__col-left-oneImg" src="../img/reservations/foot1.jpg" alt="">
+          <img class="reservations__col-left-twoImg" src="../img/reservations/foot2.jpg" alt="">
+        </div>
+
+        <div class="reservations__col-right">
+          <div class="card-one card-one__colorGold">
+            <h2 class="card-one__title">Just the right food</h2>
+            <img class="card-one__separator reservations__col-right-separator" src="../img/about/divinder.png"
+              alt="separator">
+            <div class="card-one__description reservations__col-right-description">
+              <p class="reservations__col-right-description_one">
+                If you’ve been to one of our restaurants, you’ve seen – and tasted –
+                what keeps our customers coming back for more. Perfect materials and freshly baked food.
+              </p>
+              <p class="reservations__col-right-description_two">
+                Delicious Lambda cakes, muffins, and gourmet coffees make us hard to
+                resist! Stop in today and check us out! Perfect materials and freshly baked food.
+              </p>
+            </div>
+          </div>
+
+          <div class="reservations__col-right-inputFields">
+            <div>
+              <div>
+                <p class="reservations__col-right-inputFields-title">Name</p>
+                <input class="reservations__col-right-inputFields-inp" type="text" placeholder="* your name"
+                  autocomplete="off">
+              </div>
+              <div>
+                <p class="reservations__col-right-inputFields-title">Date and time</p>
+                <input class="reservations__col-right-inputFields-inp inp-pl" type="text"
+                  placeholder="* your date and time" onfocus="(this.type='datetime-local')" onblur="(this.type='text')"
+                  autocomplete="off" name="datetime">
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <p class="reservations__col-right-inputFields-title">Surname</p>
+                <input class="reservations__col-right-inputFields-inp" type="text" placeholder="* your surname"
+                  autocomplete="off">
+              </div>
+              <div>
+                <p class="reservations__col-right-inputFields-title">Phone number</p>
+                <input class="reservations__col-right-inputFields-inp" type="number" min="0" placeholder="party number"
+                  autocomplete="off" name="phone">
+              </div>
+            </div>
+          </div>
+
+          <div class="reservations__col-right-inputButton">
+            <button class="reservations__col-right-inputButton-btn">Book now!</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!--__Footer__-->
+  <div class="footer-wrapper">
+    <footer class="footer">
+      <div class="footer__content">
+        <!-- card-one -->
+        <div class="card-one card-one__colorWhite footer__content-col">
+          <h2 class="card-one__title footer__content-col-title">About Us</h2>
+          <img class="card-one__separator footer__content-col-separator" src="../img/ingredients/divinderWhite.png"
+            alt="separator">
+          <div class="footer__content-col-block-description">
+            <p class="card-one__description footer__content-col-block-description-item">Lambda's new and expanded
+              Chelsea location
+              represents a truly authentic <b>Greek</b> patisserie, featuring breakfasts of fresh croissants and
+              steaming
+              bowls
+              of café.
+            </p>
+            <p class="card-one__description footer__content-col-block-description-item">Lamda the best restaurant in
+              town</p>
+          </div>
+        </div>
+
+        <!-- card-one -->
+        <div class="card-one card-one__colorWhite footer__content-col">
+          <div>
+            <h2 class="card-one__title footer__content-col-title">Opening Hours</h2>
+            <img class="card-one__separator footer__content-col-separator" src="../img/ingredients/divinderWhite.png"
+              alt="separator">
+          </div>
+          <div class="footer__content-col-block-description">
+            <p class="card-one__description footer__content-col-block-description-item">
+              <span><b>Mon-Thu:</b>7:00am-8:00pm</span>
+              <br>
+              <span><b>Fri-Sun:7:</b>00am-10:00pm</span>
+            </p>
+            <p class="card-one__description footer__content-col-block-description-item">
+              <img class="footer__content-col-block-description-item-img1" src="../img/footer/icon/paypal1.png" alt="">
+              <img class="footer__content-col-block-description-item-img2" src="../img/footer/icon/amex1.png" alt="">
+              <img class="footer__content-col-block-description-item-img3" src="../img/footer/icon/visa1.png" alt="">
+              <img class="footer__content-col-block-description-item-img4" src="../img/footer/icon/mastercard1.png"
+                alt="">
+            </p>
+          </div>
+        </div>
+
+        <!-- card-one -->
+        <div class="card-one card-one__colorWhite footer__content-col">
+          <div>
+            <h2 class="card-one__title footer__content-col-title">Our Location</h2>
+            <img class="card-one__separator footer__content-col-separator sep-el_1"
+              src="../img/ingredients/divinderWhite.png" alt="separator">
+          </div>
+          <div class="footer__content-col-block-description">
+            <p class="card-one__description footer__content-col-block-description-item">
+              <span><b>19th Paradise Street Sitia</b></span>
+              <br>
+              <span><b>128 Meserole Avenue</b></span>
+            </p>
+            <p class="card-one__description footer__content-col-block-description-item">
+              <img class="footer__content-col-block-description-item-img5" src="../img/footer/icon/facebook.png" alt="">
+              <img class="footer__content-col-block-description-item-img6" src="../img/footer/icon/youTube.png" alt="">
+              <img class="footer__content-col-block-description-item-img7" src="../img/footer/icon/twitter.png" alt="">
+              <img class="footer__content-col-block-description-item-img8" src="../img/footer/icon/window.png" alt="">
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+</body>
+
+</html>
